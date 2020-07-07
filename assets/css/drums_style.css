@@ -75,7 +75,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color: #777;
+  color: #000;
 }
 
 /* 
@@ -85,10 +85,10 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #000;
   font-family: 'Raleway', sans-serif;
 }
-
+a { color: white;}
 
 a.main-filled-button {
   font-size: 20px;
@@ -112,7 +112,7 @@ a.main-filled-button:hover {
 }
 a.alternate-filled-button {   
   font-size: 15px;
-  color: #fff;
+  color: white
   font-weight: 600;
   letter-spacing: 2px;
   -webkit-transition: all 0.3s ease 0s;
@@ -199,6 +199,7 @@ banner
   vertical-align:middle;
 }
 .Modern-Slider .text-content {
+    color: white;
   width: 100%;
   position: absolute;
   top: 50%;
